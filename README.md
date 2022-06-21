@@ -1,6 +1,6 @@
 # Welcome to NPPAD
 
-![]()
+![](https://github.com/qiben-jy/NuclearPowerPlantAccidentData/blob/003457a05ad2cafccb6345051ace6a86c1ac8be1/LOGO.png)
 ### NPPAD: a dataset covering various accidents for nuclear power plants
 
 ![GitHub](https://img.shields.io/github/languages/count/qiben-jy/NuclearPowerPlantAccidentData)
