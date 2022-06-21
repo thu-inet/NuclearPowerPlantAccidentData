@@ -8,13 +8,15 @@ __NPPAD: a dataset covering various accidents for nuclear power plants__
 
 This repository contains:
 
-1.a
+1. The background of this project
 
-2.b
+2. The process of data generation
 
-3.c
+3. Introduction to the structure of the dataset
 
-4.c
+4. Related data processing scripts
+
+Hopefully, you can use this project to get the needed accident data for nuclear power plants and then develop new accident diagnosis algorithms and benchmarks.
 
 ## Table of Contents
 
