@@ -19,13 +19,15 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#Background)
-- [Install]()
-- Usage
-  - generator
-- Maintainers
-- Contributing
-- License
+- [Install](#Install)
+- [Usage](#Usage)
+  - [Generator](#Generator)
+- [Maintainers](#Maintainers)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## Background
 
 ## Install
+
+## Usage
