@@ -18,7 +18,7 @@ This repository contains:
 
 ## Table of Contents
 
-- Background
+- [Background](#Background)
 - Install
 - Usage
   - generator
