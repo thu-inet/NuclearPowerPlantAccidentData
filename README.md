@@ -19,7 +19,7 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#Background)
-- Install
+- [Install]()
 - Usage
   - generator
 - Maintainers
@@ -27,3 +27,5 @@ This repository contains:
 - License
 
 ## Background
+
+## Install
