@@ -1,2 +1,2 @@
-# NuclearPowerPlantAccidentData
-We collect various accident data of NPP by PCTRAN
+# Welcome to NPPAD
+__NPPAD:a dataset covering various accidents for nuclear power plant__
