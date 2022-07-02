@@ -1,0 +1,7 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 9 Fraction = 00.0 %
+000000.5 sec, Turbine trip  
+000007.0 sec, Safety Relief Valve #0 Position Change: 100%
+000007.0 sec, Safety Relief Valve #1 Position Change: 100%
+000510.5 sec, Safety Relief Valve #0 Position Change: 0%
+000510.5 sec, Safety Relief Valve #1 Position Change: 0%

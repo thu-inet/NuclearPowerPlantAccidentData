@@ -1,0 +1,19 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 2 Fraction = 67.0 %
+0122.0 sec, Scram Lo RX Press132.0 bar
+0122.5 sec, Reactor Scram
+000123.0 sec, Malfunction # 9 Fraction = 00.0 %
+000128.5 sec, HPSI start low RX Press 118.1 bar
+000128.5 sec, HPI Pump #1 Position Change: 100%
+000128.5 sec, HPI Pump #2 Position Change: 100%
+000128.5 sec, Ctmt Vent Valve #1 Position Change: 0%
+000154.5 sec, RBS Pump #1 Position Change: 100%
+000154.5 sec, RBS Pump #2 Position Change: 100%
+000154.5 sec, Ctmt Spray Starts 1.3 bar
+000266.5 sec, FW isolation on low 281.0 C
+000266.5 sec, FWIV #1 Position Change: 0%
+000266.5 sec, FWIV #2 Position Change: 0%
+1048.5 sec, Core Uncovered
+002917.0 sec, Sump Recirc RWST lvl 199.8 M3
+003723.0 sec, Accumulator Valve #1 Position Change: 100%
+003723.0 sec, Accumulator Valve #2 Position Change: 100%

@@ -1,0 +1,52 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 3 Fraction = 32.0 %
+000397.5 sec, HPSI start high RB Press 1.30 bar
+000397.5 sec, HPI Pump #1 Position Change: 100%
+000397.5 sec, HPI Pump #2 Position Change: 100%
+000397.5 sec, Ctmt Vent Valve #1 Position Change: 0%
+000397.5 sec, RBS Pump #1 Position Change: 100%
+000397.5 sec, RBS Pump #2 Position Change: 100%
+000397.5 sec, Ctmt Spray Starts 1.3 bar
+0398.5 sec, Reactor Scram
+000399.0 sec, Malfunction # 9 Fraction = 00.0 %
+001858.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001866.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001902.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001909.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001945.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001952.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001986.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001992.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002024.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002030.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002061.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002067.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002094.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002096.0 sec, RCDT ruptured 
+002100.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002127.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002133.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002159.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002164.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002190.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002195.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002220.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002225.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002250.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002255.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002280.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002285.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002308.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002313.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002336.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002341.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002364.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002368.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002390.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002394.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002415.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002419.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002440.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002444.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+002463.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+002466.5 sec, PZR Safety Relief Valve #0 Position Change: 0%

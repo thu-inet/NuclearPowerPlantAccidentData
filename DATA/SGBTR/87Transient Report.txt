@@ -1,0 +1,9 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 11 Fraction = 87.0 %
+0885.0 sec, Scram Lo RX Press132.0 bar
+0885.5 sec, Reactor Scram
+000886.0 sec, Malfunction # 9 Fraction = 00.0 %
+000891.5 sec, HPI Pump #1 Position Change: 100%
+000891.5 sec, HPI Pump #2 Position Change: 100%
+000891.5 sec, Ctmt Vent Valve #1 Position Change: 0%
+004053.5 sec, FWIV #2 Position Change: 0%
