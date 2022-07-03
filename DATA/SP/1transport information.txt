@@ -1,2 +1,0 @@
-Reset to IC #1
-000000.5 sec, Malfunction # 5 Fraction = 00.0 %
