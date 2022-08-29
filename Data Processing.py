@@ -22,11 +22,12 @@ class Pre_processing:
             accident_path = self.data_path + '\\'+ accident
             os.chdir(self.project_path) # Make sure it is the project path
             for name in os.listdir(accident_path):
-                if not (re.match(r'\d+' + 'Transient Report.txt',name)):
+                if not (re.search(r'Transient Report.txt',name))  :
                     os.chdir(self.project_path) # Make sure the database conect normally
                     mdb_file = accident_path + '\\' + name
+                    print(mdb_file)
                     cnxn = pyodbc.connect(f'Driver={driver};DBQ={mdb_file}')
-                    if re.match(r'\d+' + '.mdb', name): #Operation data
+                    if re.search(r'\d+' + '.mdb', name) : #Operation data
                         data_table = pd.read_sql('SELECT * FROM PlotData', cnxn)
                         data_table.sort_values(by=['TIME'], ascending=True,
                                                inplace=True)  # Some mdbs have problems with not being in time order
@@ -36,7 +37,7 @@ class Pre_processing:
                         os.chdir(csv_accident_path)
                         csv_name = name.replace('mdb','csv')
                         data_table.to_csv(csv_name, header=True, index=False)
-                    elif re.match(r'\d+' + 'dose' + '.mdb', name): #Dose data
+                    elif re.search(r'\d+' + 'dose' + '.mdb', name) : #Dose data
                         data_table = pd.read_sql('SELECT * FROM ListDS', cnxn)
                         data_table.sort_values(by=['TIME'], ascending=True,
                                                inplace=True)  # Some mdbs have problems with not being in time order
@@ -97,9 +98,9 @@ class Pre_processing:
 
 if __name__ == "__main__":
 
-    pre_data = Pre_processing(r".\\DATA", r".\\Operation_csv_data",r".\\Dose_csv_data",os.getcwd())
-    # pre_data.mdbtocsv()
-    pre_data.show_parametes(['TIME','P'], r".\\Operation_csv_data\LOCA\1.csv", r".\\Data_figture\LOCA\1")
+    pre_data = Pre_processing(r".\\DATA1", r".\\Operation_csv_data",r".\\Dose_csv_data",os.getcwd())
+    pre_data.mdbtocsv()
+    # pre_data.show_parametes(['TIME','P'], r".\\Operation_csv_data\LOCA\1.csv", r".\\Data_figture\LOCA\1")
 
     #test
     # test_path = r'E:\software\PythonProject\pythonProject\NuclearPowerPlantAccidentData\Operation_csv_data\ATWS\1.csv'
