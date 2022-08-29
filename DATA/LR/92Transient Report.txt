@@ -1,0 +1,10 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 15 Fraction = 92.0 %
+000120.0 sec, Safety Relief Valve #0 Position Change: 100%
+000120.0 sec, Safety Relief Valve #1 Position Change: 100%
+000128.5 sec, Safety Relief Valve #2 Position Change: 100%
+000128.5 sec, Safety Relief Valve #3 Position Change: 100%
+000137.5 sec, Safety Relief Valve #2 Position Change: 0%
+000137.5 sec, Safety Relief Valve #3 Position Change: 0%
+000455.0 sec, Safety Relief Valve #0 Position Change: 0%
+000455.0 sec, Safety Relief Valve #1 Position Change: 0%

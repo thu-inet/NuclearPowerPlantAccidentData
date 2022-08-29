@@ -1,0 +1,2 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 15 Fraction = 62.0 %

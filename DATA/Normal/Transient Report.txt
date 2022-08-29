@@ -1,0 +1,6 @@
+Reset to IC #1
+000000.0 sec, FWIV #4 Position Change: 0%
+000299.5 sec, Safety Relief Valve #0 Position Change: 100%
+000299.5 sec, Safety Relief Valve #1 Position Change: 100%
+000548.5 sec, Safety Relief Valve #0 Position Change: 0%
+000548.5 sec, Safety Relief Valve #1 Position Change: 0%
