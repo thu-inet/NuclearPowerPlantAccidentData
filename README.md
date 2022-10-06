@@ -11,20 +11,22 @@ This repository contains:
 
 1. The background of this project
 
-2. The process of data generation
+2. Introduction to the dataset
 
-3. Introduction to the structure of the dataset
-
-4. Related data processing scripts
+3. Related data processing scripts
 
 Hopefully, you can use this project to get the needed accident data for nuclear power plants and then develop new accident diagnosis algorithms and benchmarks.
 
 ## Table of Contents
 
 - [Background](#Background)
-- [Install](#Install)
-- [Usage](#Usage)
-  - [Generator](#Generator)
+- [Introduction to the dataset](#Introduction to the dataset)
+  - [Workflow overview](#Workflow overview)
+  - [dataset structure](#dataset structure)
+- [Introduction to the scripts](#Introduction to the scripts)
+  - [Method "mdbtocsv"](#Method "mdbtocsv")
+  - [Method "generate_dataset"](#Method "generate_dataset")
+  - [Method "show_parameters"](#Method "show_parameters")
 - [Maintainers](#Maintainers)
 - [Contributing](#Contributing)
 - [License](#License)
@@ -32,11 +34,19 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
 ## Background
 Nuclear energy plays an important role in global energy supply, especially as a key low-carbon source of power. Safe operation is critical in the generation of nuclear energy, i.e. in nuclear power plants. Given the significant impact of human-caused errors on three serious nuclear accidents in history, artificial intelligence technologies are increasingly being used to assist plant operators in making decisions. Specifically, artificial intelligence algorithms are used to identify the presence of accidents and their root causes. A continuing challenge is the lack of an open dataset in the nuclear power plant domain to measure the performance of various algorithms. we presents a first-of-its-kind public dataset created with the help of PCTRAN, a pre-developed and widely used simulation software for nuclear power plants. The dataset, NPPAD, basically covers most of the common types of accidents that can occur in pressurized water reactor nuclear power plants. It contains time-series data on the status or actions of various subsystems as well as the accident types and severity information. The dataset also incorporates other simulation data like the amount of radionuclide released, which can help users to conduct research beyond accident diagnosis.
 
-## Install
+## Introduction to the dataset
 
-## Usage
+### Workflow overview
 
-### Generator
+### dataset structure
+
+## Introduction to the scripts
+
+### Method "mdbtocsv"
+
+### Method "generate_dataset"
+
+### Method "show_parameters"
 
 ## Maintainers
 
