@@ -20,7 +20,7 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
 ## Table of Contents
 
 - [Background](#Background)
-- [Datase t](#Dataset)
+- [Dataset](#Dataset)
   - [Workflow overview](#workflow overview)
   - [Dataset structure](#Dataset structure)
 - [Scripts](#Scripts)
