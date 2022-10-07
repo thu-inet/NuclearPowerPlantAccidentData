@@ -17,30 +17,6 @@ This repository contains:
 
 Hopefully, you can use this project to get the needed accident data for nuclear power plants and then develop new accident diagnosis algorithms and benchmarks.
 
-[//]: # (## Table of Contents)
-
-[//]: # (- [Background]&#40;#Background&#41;)
-
-[//]: # (- [Dataset]&#40;#Dataset&#41;)
-
-[//]: # (  - [Workflow overview]&#40;#Workflow overview&#41;)
-
-[//]: # (  - [Dataset structure]&#40;#Dataset structure&#41;)
-
-[//]: # (- [Scripts]&#40;#Scripts&#41;)
-
-[//]: # (  - [Method "mdbtocsv"]&#40;#Method "mdbtocsv"&#41;)
-
-[//]: # (  - [Method "generate_dataset"]&#40;#Method "generate_dataset"&#41;)
-
-[//]: # (  - [Method "show_parameters"]&#40;#Method "show_parameters"&#41;)
-
-[//]: # (- [Maintainers]&#40;#Maintainers&#41;)
-
-[//]: # (- [Contributing]&#40;#Contributing&#41;)
-
-[//]: # (- [License]&#40;#License&#41;)
-
   <ol>
     <li>
       <a href="#Background">Background</a>
@@ -86,3 +62,6 @@ The initial version of the dataset contains 18 types of operating conditions tha
 
 ## Contributing
 We appreciate all contributions. Please let us know if you encounter a bug by filing an issue.
+
+## License
+NPPAD has a MIT license, as found in the [LICENSE](https://github.com/qiben-jy/NuclearPowerPlantAccidentData/blob/ab8c9dc45e594b793097ca9582e959ee7935eeb5/LICENSE) file.
