@@ -46,11 +46,12 @@ The initial version of the dataset contains 18 types of operating conditions tha
 ### Dataset structure
 对box2-6进行描述（可添加图片,表格等）
 ## Related scripts
-在[Data Processing.py](https://github.com/qiben-jy/NuclearPowerPlantAccidentData/blob/350288cd65eefe456fa6f0af72e4417c1678f5fe/Data%20Processing.py)中提供了以下三种脚本：
+在[Data Processing.py](https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Data%20Processing.py)中提供了以下三种脚本：
 
 - Method *mdbtocsv*
 
-将MDB格式文件转为CSV格式
+Use this method to convert files from *mdb* format to *csv* format, the files [Dose_csv_data](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/Dose_csv_data) and [Operation_csv_data](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/Operation_csv_data) in this project are the result of converting the original dataset [DATA](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/DATA) into csv format.
+
 
 ```
     def mdbtocsv(self):
@@ -92,7 +93,7 @@ The initial version of the dataset contains 18 types of operating conditions tha
 
 - Method *generate_dataset*
 
-生成可用于监督学习任务的标准数据集
+Use this method to generate a standard dataset for supervised learning tasks.
 ```
     def generate_dataset(self, dataset_source_path):
         class Mydataset(Dataset):
@@ -129,7 +130,7 @@ The initial version of the dataset contains 18 types of operating conditions tha
 ```
 - Method *show_parameters*
 
-可以绘制参数变化曲线的脚本
+Use this method to plot the variation of physical parameters。
 ```
     def show_parametes(self, variables, plot_data_path, figture_save_path):
         if (os.path.exists(figture_save_path) == False):
