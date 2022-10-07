@@ -1,0 +1,4 @@
+pandas~=1.4.2
+pyodbc~=4.0.32
+matplotlib~=3.5.2
+torch~=1.12.0+cu113
