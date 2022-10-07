@@ -55,11 +55,6 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
       </ul>
     </li>
     <li><a href="#Related scripts">Related scripts</a>
-    <ul>
-        <li><a href="#Method mdbtocsv">Method mdbtocsv</a></li>
-        <li><a href="#Method generate_dataset">Method generate_dataset</a></li>
-        <li><a href="#Method show_parameters">Method show_parameters</a></li>
-    </ul>
     </li>
     <li><a href="#Maintainers">Maintainers</a></li>
     <li><a href="#Contributing">Contributing</a></li>
@@ -71,18 +66,24 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
 Nuclear energy plays an important role in global energy supply, especially as a key low-carbon source of power. Safe operation is critical in the generation of nuclear energy, i.e. in nuclear power plants. Given the significant impact of human-caused errors on three serious nuclear accidents in history, artificial intelligence technologies are increasingly being used to assist plant operators in making decisions. Specifically, artificial intelligence algorithms are used to identify the presence of accidents and their root causes. A continuing challenge is the lack of an open dataset in the nuclear power plant domain to measure the performance of various algorithms. we presents a first-of-its-kind public dataset created with the help of PCTRAN, a pre-developed and widely used simulation software for nuclear power plants. The dataset, NPPAD, basically covers most of the common types of accidents that can occur in pressurized water reactor nuclear power plants. It contains time-series data on the status or actions of various subsystems as well as the accident types and severity information. The dataset also incorporates other simulation data like the amount of radionuclide released, which can help users to conduct research beyond accident diagnosis.
 
 ## Introduction to the dataset
-
+The initial version of the dataset contains 18 types of operating conditions that are possible under full power operation of a three-loop pressurized water reactor nuclear power plant.
 ### Workflow overview
-数据生产流程，对图5描述 Box1
+数据生产流程，对图5和Box1描述（可添加图片）
 ### Dataset structure
-
+对box2-6进行描述
 ## Related scripts
+在Data Processing.py中提供了以下三种脚本：
 
-### Method mdbtocsv
+- Method mdbtocsv
 
-### Method generate_dataset
+分别是将MDB格式文件转为CSV格式
+- Method generate_dataset
 
-### Method show_parameters
+生成可用于监督学习任务的标准数据集
+
+- Method show_parameters
+
+可以绘制参数变化曲线的脚本
 
 ## Maintainers
 
