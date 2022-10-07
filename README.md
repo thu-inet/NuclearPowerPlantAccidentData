@@ -30,6 +30,7 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
     </li>
     <li><a href="#Related scripts">Related scripts</a>
     </li>
+    <li><a href="#Installation">Installation</a></li>
     <li><a href="#Maintainers">Maintainers</a></li>
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#License">License</a></li>
@@ -58,7 +59,23 @@ The initial version of the dataset contains 18 types of operating conditions tha
 
 可以绘制参数变化曲线的脚本
 
+## Installation
+First, Python 3.6 or higher is already installed by default.
+
+To install NPPAD from the soure code:
+```
+$ git clone https://github.com/thu-inet/NuclearPowerPlantAccidentData 
+$ cd NuclearPowerPlantAccidentData/
+$ pip install -r requirements.txt
+$ python setup.py install
+```
+
 ## Maintainers
+
+- [Ben Qi](https://github.com/qiben-jy)
+- [Xingyu Xiao](https://github.com/Crystalxy123)
+- [Jingang Liang](https://github.com/liangjg)
+- [THU-INET](https://github.com/thu-inet)
 
 ## Contributing
 We appreciate all contributions. Please let us know if you encounter a bug by filing an issue.
