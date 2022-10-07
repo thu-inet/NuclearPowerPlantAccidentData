@@ -46,7 +46,7 @@ The initial version of the dataset contains 18 types of operating conditions tha
 ### Dataset structure
 对box2-6进行描述（可添加图片,表格等）
 ## Related scripts
-在[Data Processing.py](https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Data%20Processing.py)中提供了以下三种脚本：
+The following three scripts are provided in [Data Processing.py](https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Data%20Processing.py)
 
 - Method *mdbtocsv*
 
