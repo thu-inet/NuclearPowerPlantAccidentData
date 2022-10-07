@@ -85,5 +85,4 @@ The initial version of the dataset contains 18 types of operating conditions tha
 ## Maintainers
 
 ## Contributing
-
-## License
+We appreciate all contributions. Please let us know if you encounter a bug by filing an issue.
