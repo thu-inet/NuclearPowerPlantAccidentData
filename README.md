@@ -68,20 +68,20 @@ Nuclear energy plays an important role in global energy supply, especially as a 
 ## Introduction to the dataset
 The initial version of the dataset contains 18 types of operating conditions that are possible under full power operation of a three-loop pressurized water reactor nuclear power plant.
 ### Workflow overview
-数据生产流程，对图5和Box1描述（可添加图片）
+数据生产流程，对图5和Box1描述（可添加图片,表格等）
 ### Dataset structure
-对box2-6进行描述
+对box2-6进行描述（可添加图片,表格等）
 ## Related scripts
-在Data Processing.py中提供了以下三种脚本：
+在[Data Processing.py](Data Processing.py)中提供了以下三种脚本：
 
-- Method mdbtocsv
+- Method *mdbtocsv*
 
 分别是将MDB格式文件转为CSV格式
-- Method generate_dataset
+- Method *generate_dataset*
 
 生成可用于监督学习任务的标准数据集
 
-- Method show_parameters
+- Method *show_parameters*
 
 可以绘制参数变化曲线的脚本
 
