@@ -41,8 +41,6 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
 
 [//]: # (- [License]&#40;#License&#41;)
 
-<details>
-  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#Background">Background</a>
@@ -60,7 +58,6 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#License">License</a></li>
   </ol>
-</details>
 
 ## Background
 Nuclear energy plays an important role in global energy supply, especially as a key low-carbon source of power. Safe operation is critical in the generation of nuclear energy, i.e. in nuclear power plants. Given the significant impact of human-caused errors on three serious nuclear accidents in history, artificial intelligence technologies are increasingly being used to assist plant operators in making decisions. Specifically, artificial intelligence algorithms are used to identify the presence of accidents and their root causes. A continuing challenge is the lack of an open dataset in the nuclear power plant domain to measure the performance of various algorithms. we presents a first-of-its-kind public dataset created with the help of PCTRAN, a pre-developed and widely used simulation software for nuclear power plants. The dataset, NPPAD, basically covers most of the common types of accidents that can occur in pressurized water reactor nuclear power plants. It contains time-series data on the status or actions of various subsystems as well as the accident types and severity information. The dataset also incorporates other simulation data like the amount of radionuclide released, which can help users to conduct research beyond accident diagnosis.
