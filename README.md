@@ -50,13 +50,13 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
     <li>
       <a href="#Introduction to the dataset">Introduction to the dataset</a>
       <ul>
-        <li><a href="#Method mdbtocsv">Method mdbtocsv</a></li>
+        <li><a href="#Workflow overview">Workflow overview</a></li>
         <li><a href="#Dataset structure">Dataset structure</a></li>
       </ul>
     </li>
     <li><a href="#Related scripts">Related scripts</a>
     <ul>
-        <li><a href="#Workflow overview">Workflow overview</a></li>
+        <li><a href="#Method mdbtocsv">Method mdbtocsv</a></li>
         <li><a href="#Method generate_dataset">Method generate_dataset</a></li>
         <li><a href="#Method show_parameters">Method show_parameters</a></li>
     </ul>
