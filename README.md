@@ -48,7 +48,7 @@ The initial version of the dataset contains 18 types of operating conditions tha
 ## Related scripts
 The following three scripts are provided in [Data Processing.py](https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Data%20Processing.py)
 
-- Method *mdbtocsv*
+- **Method *mdbtocsv***
 
 Use this method to convert files from *mdb* format to *csv* format, the files [Dose_csv_data](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/Dose_csv_data) and [Operation_csv_data](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/Operation_csv_data) in this project are the result of converting the original dataset [DATA](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/DATA) into csv format.
 
@@ -91,7 +91,7 @@ Use this method to convert files from *mdb* format to *csv* format, the files [D
                         data_table.to_csv(csv_name, header=True, index=False)
 ```
 
-- Method *generate_dataset*
+- **Method *generate_dataset***
 
 Use this method to generate a standard dataset for supervised learning tasks.
 ```
@@ -128,7 +128,7 @@ Use this method to generate a standard dataset for supervised learning tasks.
                 return self.length
         return Mydataset(dataset_source_path)
 ```
-- Method *show_parameters*
+- **Method *show_parameters***
 
 Use this method to plot the variation of physical parameters。
 ```
