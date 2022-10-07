@@ -140,7 +140,7 @@ Use this method to generate a standard dataset for supervised learning tasks.
 ```
 - **Method *show_parameters***
 
-Use this method to plot the variation of physical parameters。
+Use this method to plot the variation of physical parameters.
 ```
     def show_parametes(self, variables, plot_data_path, figture_save_path):
         if (os.path.exists(figture_save_path) == False):
