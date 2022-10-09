@@ -59,7 +59,7 @@ After that, PCTRAN will simulate automatedly. The detailed process of accident s
 Finally, we get the dataset NPPAD.zip with different conditions.  
 PS: The dataset in this work does not include cases where mitigation system failures are superimposed on nuclear plant accidents, as such superimposed cases are too numerous to cover. 
 
-folder name|Accident|Type|severity|
+Folder name|Accident|Type|Severity|
 :----------|:-------|:---|:-------|
 NORM|Normal operating|-|-|
 LOCA|Loss of Coolant Accident (Hot Leg)|Severity|% of 100 cm2|
