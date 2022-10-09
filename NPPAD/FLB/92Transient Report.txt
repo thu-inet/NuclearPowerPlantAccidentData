@@ -1,0 +1,21 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 13 Fraction = 92.0 %
+000169.0 sec, HPSI start high RB Press 1.30 bar
+000169.0 sec, HPI Pump #1 Position Change: 100%
+000169.0 sec, HPI Pump #2 Position Change: 100%
+000169.0 sec, Ctmt Vent Valve #1 Position Change: 0%
+000169.0 sec, RBS Pump #1 Position Change: 100%
+000169.0 sec, RBS Pump #2 Position Change: 100%
+000169.0 sec, Ctmt Spray Starts 1.3 bar
+0170.0 sec, Reactor Scram
+000170.5 sec, Malfunction # 9 Fraction = 00.0 %
+001483.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001491.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001526.5 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001534.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001567.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001574.5 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001607.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001614.0 sec, PZR Safety Relief Valve #0 Position Change: 0%
+001643.0 sec, PZR Safety Relief Valve #0 Position Change: 100%
+001649.5 sec, PZR Safety Relief Valve #0 Position Change: 0%

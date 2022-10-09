@@ -1,0 +1,5 @@
+Reset to IC #1
+000000.5 sec, Malfunction # 12 Fraction = -32.0 %
+0122.5 sec, Scram Lo RX Press132.0 bar
+0123.0 sec, Reactor Scram
+000123.5 sec, Malfunction # 9 Fraction = 00.0 %

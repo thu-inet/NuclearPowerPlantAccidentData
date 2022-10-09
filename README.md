@@ -44,7 +44,7 @@ increasingly being used to assist plant operators in making decisions. Specifica
 are used to identify the presence of accidents and their root causes. A continuing challenge is the lack of an open dataset 
 in the nuclear power plant domain to measure the performance of various algorithms. we presents a first-of-its-kind public 
 dataset created with the help of [PCTRAN](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/Simulator), a pre-developed and widely used simulation software for nuclear power plants. The 
-dataset, NPPAD, basically covers most of the common types of accidents that can occur in pressurized water reactor nuclear
+dataset, [NPPAD](https://github.com/thu-inet/NuclearPowerPlantAccidentData/tree/main/NPPAD), basically covers most of the common types of accidents that can occur in pressurized water reactor nuclear
 power plants. It contains time-series data on the status or actions of various subsystems as well as the accident types and
 severity information. The dataset also incorporates other simulation data like the amount of radionuclide released, which 
 can help users to conduct research beyond accident diagnosis.
