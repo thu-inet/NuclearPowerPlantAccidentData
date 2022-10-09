@@ -52,6 +52,7 @@ can help users to conduct research beyond accident diagnosis.
 ## Introduction to the dataset
 The initial version of the dataset contains 18 types of operating conditions that are possible under full power operation of a three-loop pressurized water reactor nuclear power plant.
 ### Workflow overview
+Fig.1 Overall Workflow Of The Simulation Data Generation  
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig1.png" width="375">
 The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.  
 First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.
@@ -59,6 +60,8 @@ Then we select different operating conditions. If the normal operating condition
 After that, PCTRAN will simulate automatedly. The detailed process of accident simulation in PCTRAN is shown in Box 1. First, a set of input parameters are configured according to the operations. which decide the way of the corresponding simulations. And we can get the output data in a certain time.
 Finally, we get the dataset NPPAD.zip with different conditions.  
 PS: The dataset in this work does not include cases where mitigation system failures are superimposed on nuclear plant accidents, as such superimposed cases are too numerous to cover. 
+
+Table1 Accident sets covered by NPPAD  
 
 Folder name|Accident|Type|Severity|
 :----------|:-------|:---|:-------|
@@ -81,6 +84,7 @@ MD|Moderator Dilution|Severity|% of unborated injection|
 LR|Load Rejection|Severity|% of full load rejected|
 LLB|Letdown Line Break in auxiliary buildings|Severity|% of nominal letdown flow|
 ### Dataset structure
+<img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig2.png" width="375">
 The NPPAD dataset covers 18 types of operating conditions, with Box 2 shows partially. Each operating condition sample contains three files, two in mdb format and the other in txt format. The mdb file can be opened directly through Microsoft Access. For example, the content of 1.mdb (PlotData) is shown in box 3, it represents the time series of the status parameters with a 1% of 100 cm2 break of LOCA, while PlotData represents the sub-table in the 1.mdb file. Another useful sub-table is ListPlotVariables, as shown in Box 6, which describes the parameters corresponding to the abbreviations in PlotData. And in box 4, 1Dose.mdb represents the time series of the radionuclide in the nuclear power plant. In addition to the mdb format, we also provide CSV format in the folders Operation_csv_data and Dose_csv_data. Besides, 1Transient Report.txt in box 5 describes the actions in the subsystems of the nuclear plant over the simulation time for each accident, which can help the user to understand the changes in the plant status. The numbers in front of the files in other operating conditions (e.g. 1.mdb, 2.mdb) correspond to the severity of the accident, and the exact meaning can be determined by column ‘severity’ of Table 1.
 ## Related scripts
 The following three scripts are provided in [Data Processing.py](https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Data%20Processing.py)
