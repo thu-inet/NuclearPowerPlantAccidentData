@@ -50,42 +50,46 @@ severity information. The dataset also incorporates other simulation data like t
 can help users to conduct research beyond accident diagnosis.
 
 ## Introduction to the dataset
-The initial version of the dataset contains 18 types of operating conditions that are possible under full power operation of a three-loop pressurized water reactor nuclear power plant.
+
 ### Workflow overview
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig1.png" width="375">  
 Fig. 1 Overall Workflow Of The Simulation Data Generation   
-
-The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.   
-First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.
-Then we select different operating conditions. If the normal operating condition is treated, the simulator will run for a certain time that we configured to get the data output. Besides, for abnormal operating conditions, accident type, accident parameters and simulation time are configured, and then simulation data is output. The accidents covered in this work is shown in Table 1 . Specifically, The parameter selection screen is shown in the Fig. 2.  
+<br/>
+<br/>
+The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.Then we select different operating conditions. If the normal operating condition is treated, the simulator will run for a certain time that we configured to get the data output. Besides, for abnormal operating conditions, accident type, accident parameters and simulation time are configured, and then simulation data is output. The accidents covered in this work is shown in Table 1 . Specifically, The parameter selection screen is shown in the Fig. 2.  
+<br/>
+<br/>
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig3.png" width="375">     
-Fig. 2 Accident type selection and parameter setting    
+Fig. 2 Accident type selection and parameter setting  
+<br/>
+<br/>
 After that, PCTRAN will simulate automatedly. The detailed process of accident simulation in PCTRAN is shown in Box 1. First, a set of input parameters are configured according to the operations. which decide the way of the corresponding simulations. And we can get the output data in a certain time.
 Finally, we get the dataset NPPAD.zip with different conditions.  
 PS: The dataset in this work does not include cases where mitigation system failures are superimposed on nuclear plant accidents, as such superimposed cases are too numerous to cover. 
+<br/>
+<br/>
+Table1 Accident sets covered by NPPAD
 
-Table1 Accident sets covered by NPPAD  
-
-Folder name|Accident|Type|Severity|
-:----------|:-------|:---|:-------|
-NORM|Normal operating|-|-|
-LOCA|Loss of Coolant Accident (Hot Leg)|Severity|% of 100 cm2|
-LOCAC|Loss of Coolant Accident (Cold Leg)|Severity|% of 100 cm2|
-SLBIC|Steam Line Break Inside Containment|Severity|% of 100 cm2|
-SLBOC|Steam Line Break Outside Containment|Severity|% of 100 cm2|
-SP|Spark Presence for Hydrogen Burn|Other|Only one situation|
-LACP|Loss of AC Power|Other|Only one situation|
-LOF|Loss of Flow (Locked Rotor)|Other|Only one situation|
-ATWS|Anticipated Transient Without Scram|Other|Only one situation
-TT|Turbine Trip|Other|Only one situation|
-SGATR|Steam Generator A Tube Rupture|Severity|% of 1 full tube rupture|
-SGBTR|Steam Generator B Tube Rupture|Severity|% of 1 full tube rupture|
-RW|Rod Withdrawal|Severity|% (+/-) withdrawn|
-RI|Rod Insertion|Severity|% (+/-) insertion|
-FLB|Feedwater Line Break|Severity|% of 100 cm2|
-MD|Moderator Dilution|Severity|% of unborated injection|
-LR|Load Rejection|Severity|% of full load rejected|
-LLB|Letdown Line Break in auxiliary buildings|Severity|% of nominal letdown flow|
+Folder name|Accident| Type     | Severity                  |
+:----------|:-------|:---------|:--------------------------|
+NORM|Normal operating| -        | -                         |
+LOCA|Loss of Coolant Accident (Hot Leg)| Severity | % of 100 cm2              |
+LOCAC|Loss of Coolant Accident (Cold Leg)| Severity | % of 100 cm2              |
+SLBIC|Steam Line Break Inside Containment| Severity | % of 100 cm2              |
+SLBOC|Steam Line Break Outside Containment| Severity | % of 100 cm2              |
+SP|Spark Presence for Hydrogen Burn| Other    | -                         |
+LACP|Loss of AC Power|Other    | -        |
+LOF|Loss of Flow (Locked Rotor)| Other    | -                         |
+ATWS|Anticipated Transient Without Scram| Other    | -                         
+TT|Turbine Trip| Other    | -                         |
+SGATR|Steam Generator A Tube Rupture| Severity | % of 1 full tube rupture  |
+SGBTR|Steam Generator B Tube Rupture| Severity | % of 1 full tube rupture  |
+RW|Rod Withdrawal| Severity | % (+/-) withdrawn         |
+RI|Rod Insertion| Severity | % (+/-) insertion         |
+FLB|Feedwater Line Break| Severity | % of 100 cm2              |
+MD|Moderator Dilution| Severity | % of unborated injection  |
+LR|Load Rejection| Severity | % of full load rejected   |
+LLB|Letdown Line Break in auxiliary buildings| Severity | % of nominal letdown flow |
 ### Dataset structure
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig2.png" width="475">
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig4.png" width="275">
