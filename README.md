@@ -54,16 +54,20 @@ can help users to conduct research beyond accident diagnosis.
 ### Workflow overview
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig1.png" width="375">  
 Fig. 1 Overall Workflow Of The Simulation Data Generation   
-
-The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.
-Then we select different operating conditions. If the normal operating condition is treated, the simulator will run for a certain time that we configured to get the data output. Besides, for abnormal operating conditions, accident type, accident parameters and simulation time are configured, and then simulation data is output. The accidents covered in this work is shown in Table 1 . Specifically, The parameter selection screen is shown in the Fig. 2.  
-
+<br/>
+<br/>
+The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.Then we select different operating conditions. If the normal operating condition is treated, the simulator will run for a certain time that we configured to get the data output. Besides, for abnormal operating conditions, accident type, accident parameters and simulation time are configured, and then simulation data is output. The accidents covered in this work is shown in Table 1 . Specifically, The parameter selection screen is shown in the Fig. 2.  
+<br/>
+<br/>
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig3.png" width="375">     
-Fig. 2 Accident type selection and parameter setting    
+Fig. 2 Accident type selection and parameter setting  
+<br/>
+<br/>
 After that, PCTRAN will simulate automatedly. The detailed process of accident simulation in PCTRAN is shown in Box 1. First, a set of input parameters are configured according to the operations. which decide the way of the corresponding simulations. And we can get the output data in a certain time.
 Finally, we get the dataset NPPAD.zip with different conditions.  
 PS: The dataset in this work does not include cases where mitigation system failures are superimposed on nuclear plant accidents, as such superimposed cases are too numerous to cover. 
-
+<br/>
+<br/>
 Table1 Accident sets covered by NPPAD
 
 Folder name|Accident| Type     | Severity                  |
