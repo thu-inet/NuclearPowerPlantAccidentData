@@ -55,8 +55,7 @@ can help users to conduct research beyond accident diagnosis.
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig1.png" width="375">  
 Fig. 1 Overall Workflow Of The Simulation Data Generation   
 
-The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.   
-First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.
+The overall workflow implemented in the script to generate the nuclear power plant accident dataset is shown in Fig. 1.First, we started the software by an automation script. Once the software is launched, the nuclear plant operating at 100% power is initialized.
 Then we select different operating conditions. If the normal operating condition is treated, the simulator will run for a certain time that we configured to get the data output. Besides, for abnormal operating conditions, accident type, accident parameters and simulation time are configured, and then simulation data is output. The accidents covered in this work is shown in Table 1 . Specifically, The parameter selection screen is shown in the Fig. 2.  
 
 <img src="https://github.com/thu-inet/NuclearPowerPlantAccidentData/blob/main/Figures/fig3.png" width="375">     
