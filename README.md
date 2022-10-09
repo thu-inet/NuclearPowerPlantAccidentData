@@ -62,6 +62,23 @@ PS: The dataset in this work does not include cases where mitigation system fail
 folder name|Accident|Type|severity|
 :----------|:-------|:---|:-------|
 NORM|Normal operating|-|-|
+LOCA|Loss of Coolant Accident (Hot Leg)|Severity|% of 100 cm2|
+LOCAC|Loss of Coolant Accident (Cold Leg)|Severity|% of 100 cm2|
+SLBIC|Steam Line Break Inside Containment|Severity|% of 100 cm2|
+SLBOC|Steam Line Break Outside Containment|Severity|% of 100 cm2|
+SP|Spark Presence for Hydrogen Burn|Other|Only one situation|
+LACP|Loss of AC Power|Other|Only one situation|
+LOF|Loss of Flow (Locked Rotor)|Other|Only one situation|
+ATWS|Anticipated Transient Without Scram|Other|Only one situation
+TT|Turbine Trip|Other|Only one situation|
+SGATR|Steam Generator A Tube Rupture|Severity|% of 1 full tube rupture|
+SGBTR|Steam Generator B Tube Rupture|Severity|% of 1 full tube rupture|
+RW|Rod Withdrawal|Severity|% (+/-) withdrawn|
+RI|Rod Insertion|Severity|% (+/-) insertion|
+FLB|Feedwater Line Break|Severity|% of 100 cm2|
+MD|Moderator Dilution|Severity|% of unborated injection|
+LR|Load Rejection|Severity|% of full load rejected|
+LLB|Letdown Line Break in auxiliary buildings|Severity|% of nominal letdown flow|
 ### Dataset structure
 The NPPAD dataset covers 18 types of operating conditions, with Box 2 shows partially. Each operating condition sample contains three files, two in mdb format and the other in txt format. The mdb file can be opened directly through Microsoft Access. For example, the content of 1.mdb (PlotData) is shown in box 3, it represents the time series of the status parameters with a 1% of 100 cm2 break of LOCA, while PlotData represents the sub-table in the 1.mdb file. Another useful sub-table is ListPlotVariables, as shown in Box 6, which describes the parameters corresponding to the abbreviations in PlotData. And in box 4, 1Dose.mdb represents the time series of the radionuclide in the nuclear power plant. In addition to the mdb format, we also provide CSV format in the folders Operation_csv_data and Dose_csv_data. Besides, 1Transient Report.txt in box 5 describes the actions in the subsystems of the nuclear plant over the simulation time for each accident, which can help the user to understand the changes in the plant status. The numbers in front of the files in other operating conditions (e.g. 1.mdb, 2.mdb) correspond to the severity of the accident, and the exact meaning can be determined by column ‘severity’ of Table 1.
 ## Related scripts
