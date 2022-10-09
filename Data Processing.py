@@ -98,7 +98,7 @@ class Pre_processing:
 
 if __name__ == "__main__":
 
-    pre_data = Pre_processing(r".\\DATA1", r".\\Operation_csv_data",r".\\Dose_csv_data",os.getcwd())
+    pre_data = Pre_processing(r".\\NPPAD", r".\\Operation_csv_data",r".\\Dose_csv_data",os.getcwd())
     pre_data.mdbtocsv()
     # pre_data.show_parametes(['TIME','P'], r".\\Operation_csv_data\LOCA\1.csv", r".\\Data_figture\LOCA\1")
 
