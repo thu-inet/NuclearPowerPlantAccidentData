@@ -2,10 +2,11 @@
 # Welcome to NPPAD
 ### NPPAD: An Open Time-series Dataset Covering Various Accidents for Nuclear Power Plants
 
-![GitHub](https://img.shields.io/github/languages/count/qiben-jy/NuclearPowerPlantAccidentData)
-![GitHub followers](https://img.shields.io/github/followers/qiben-jy?style=social)
-![GitHub](https://img.shields.io/github/watchers/qiben-jy/NuclearPowerPlantAccidentData?style=social)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/qiben-jy/NuclearPowerPlantAccidentData)
+![GitHub](https://img.shields.io/github/languages/count/thu-inet/NuclearPowerPlantAccidentData)
+![GitHub followers](https://img.shields.io/github/followers/thu-inet?style=social)
+![GitHub](https://img.shields.io/github/watchers/thu-inet/NuclearPowerPlantAccidentData?style=social)
+
+[//]: # (![GitHub release &#40;latest by date&#41;]&#40;https://img.shields.io/github/v/release/thu-inet/NuclearPowerPlantAccidentData&#41;)
 
 This repository contains:
 
