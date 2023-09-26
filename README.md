@@ -214,7 +214,6 @@ To install NPPAD from the soure code:
 $ git clone https://github.com/thu-inet/NuclearPowerPlantAccidentData 
 $ cd NuclearPowerPlantAccidentData/
 $ pip install -r requirements.txt
-$ python setup.py install
 ```
 
 ## Maintainers
