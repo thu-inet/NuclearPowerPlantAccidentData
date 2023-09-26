@@ -212,7 +212,7 @@ $ python setup.py install
 
 ## Maintainers
 
-- [Ben Qi](https://github.com/qiben-jy)
+- [Ben Qi](https://github.com/Ben-learner)
 - [Xingyu Xiao](https://github.com/Crystalxy123)
 - [Jingang Liang](https://github.com/liangjg)
 - [THU-INET](https://github.com/thu-inet)
@@ -222,3 +222,10 @@ We appreciate all contributions. Please let us know if you encounter a bug by fi
 
 ## License
 NPPAD has a MIT license, as found in the [LICENSE](https://github.com/qiben-jy/NuclearPowerPlantAccidentData/blob/ab8c9dc45e594b793097ca9582e959ee7935eeb5/LICENSE) file.
+
+## Citing
+Citing NPPAD in your research:
+```
+Qi, B., Xiao, X., Liang, J. et al. An open time-series simulated dataset covering various accidents 
+for nuclear power plants.Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-022-01879-1
+```
