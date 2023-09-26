@@ -41,6 +41,7 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
     <li><a href="#Maintainers">Maintainers</a></li>
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#License">License</a></li>
+     <li><a href="#Citing">Citing</a></li>
   </ol>
 
 ## Background
