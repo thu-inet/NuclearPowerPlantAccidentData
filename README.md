@@ -226,5 +226,6 @@ NPPAD has a MIT license, as found in the [LICENSE](https://github.com/qiben-jy/N
 ## Citing
 Citing NPPAD in your research:
 ```
-Qi, B., Xiao, X., Liang, J. et al. An open time-series simulated dataset covering various accidents for nuclear power plants. Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-022-01879-1
+Qi, B., Xiao, X., Liang, J. et al. An open time-series simulated dataset covering various accidents 
+for nuclear power plants.Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-022-01879-1
 ```
