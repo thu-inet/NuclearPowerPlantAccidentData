@@ -339,3 +339,5 @@ Citing NPPAD in your research:
 Qi, B., Xiao, X., Liang, J. et al. An open time-series simulated dataset covering various accidents 
 for nuclear power plants.Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-022-01879-1
 ```
+## Related work
+[Xiao, X.; Qi, B.; Liang, J.; Tong, J.; Deng, Q.; Chen, P. Enhancing LOCA Breach Size Diagnosis with Fundamental Deep Learning Models and Optimized Dataset Construction. Energies 2024, 17, 159.](https://doi.org/10.3390/en17010159)
