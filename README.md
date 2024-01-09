@@ -29,13 +29,13 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
       <a href="#Background">Background</a>
     </li>
     <li>
-      <a href="#Introduction to the dataset">Introduction to the dataset</a>
+      <a href="#Introduction-to-the-dataset">Introduction to the dataset</a>
       <ul>
-        <li><a href="#Workflow overview">Workflow overview</a></li>
-        <li><a href="#Dataset structure">Dataset structure</a></li>
+        <li><a href="#Workflow-overview">Workflow overview</a></li>
+        <li><a href="#Dataset-structure">Dataset structure</a></li>
       </ul>
     </li>
-    <li><a href="#Related scripts">Related scripts</a>
+    <li><a href="#Related-scripts">Related scripts</a>
     </li>
     <li><a href="#Installation">Installation</a></li>
     <li><a href="#Maintainers">Maintainers</a></li>
