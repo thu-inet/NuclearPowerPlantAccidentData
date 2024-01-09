@@ -42,6 +42,7 @@ Hopefully, you can use this project to get the needed accident data for nuclear 
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#License">License</a></li>
      <li><a href="#Citing">Citing</a></li>
+     <li><a href="#Related work">Related work</a></li>
   </ol>
 
 ## Background
