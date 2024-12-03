@@ -341,4 +341,16 @@ Qi, B., Xiao, X., Liang, J. et al. An open time-series simulated dataset coverin
 for nuclear power plants.Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-022-01879-1
 ```
 ## Related work
+[Qi B, Xiao X, Liang J, et al. An open time-series simulated dataset covering various accidents for nuclear power plants[J]. Scientific data, 2022, 9(1): 766.](https://doi.org/10.1038/s41597-022-01879-1)
+
 [Xiao, X.; Qi, B.; Liang, J.; Tong, J.; Deng, Q.; Chen, P. Enhancing LOCA Breach Size Diagnosis with Fundamental Deep Learning Models and Optimized Dataset Construction. Energies 2024, 17, 159.](https://doi.org/10.3390/en17010159)
+
+[Qi B, Liang J, Tong J. Fault diagnosis techniques for nuclear power plants: a review from the artificial intelligence perspective[J]. Energies, 2023, 16(4): 1850.](https://doi.org/10.3390/en16041850)
+
+[Qi B, Zhang L, Liang J, et al. Combinatorial techniques for fault diagnosis in nuclear power plants based on Bayesian neural network and simplified Bayesian network-artificial neural network[J]. Frontiers in Energy Research, 2022, 10: 920194.](https://doi.org/10.3389/fenrg.2022.920194)
+
+[Qi B, Sun J, Sui Z, et al. Multimodal learning using large language models to improve transient identification of nuclear power plants[J]. Progress in Nuclear Energy, 2024, 177: 105421.](https://doi.org/10.1016/j.pnucene.2024.105421)
+
+[Qi B, Wang Y, Xiao X, et al. Underlying Deep Learning Networks Diagnosis Evaluation and Generative Adversarial Network Data Augmentation Based on a Benchmark Accident Dataset[C]//International Conference on Nuclear Engineering. American Society of Mechanical Engineers, 2024, 88254: V005T05A019.](https://doi.org/10.1115/ICONE31-134996)
+
+[Xiao X, Liu S, Zuo Z, et al. A Text Intelligence-Based Approach for Automatic Generation of Fault Trees in Nuclear Power Plants[C]//International Conference on Nuclear Engineering. American Society of Mechanical Engineers, 2024, 88308: V010T12A004.](https://doi.org/10.1115/ICONE31-134226)
