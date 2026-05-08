@@ -354,3 +354,12 @@ for nuclear power plants.Sci Data 9, 766 (2022). https://doi.org/10.1038/s41597-
 [Qi B, Wang Y, Xiao X, et al. Underlying Deep Learning Networks Diagnosis Evaluation and Generative Adversarial Network Data Augmentation Based on a Benchmark Accident Dataset[C]//International Conference on Nuclear Engineering. American Society of Mechanical Engineers, 2024, 88254: V005T05A019.](https://doi.org/10.1115/ICONE31-134996)
 
 [Xiao X, Liu S, Zuo Z, et al. A Text Intelligence-Based Approach for Automatic Generation of Fault Trees in Nuclear Power Plants[C]//International Conference on Nuclear Engineering. American Society of Mechanical Engineers, 2024, 88308: V010T12A004.](https://doi.org/10.1115/ICONE31-134226)
+
+[Qi B, Sun J, Sui Z, et al. A transient detection framework in nuclear power plants using zero-shot learning based on digital twins[J]. Progress in Nuclear Energy, 2025, 189: 105848.](https://doi.org/10.1016/j.pnucene.2025.105848)
+
+[Qi B, Xiao X, Liang J, et al. Synergistic AI for Nuclear Safety: PINNs, XAI, DTs, and LLMs in Fault Diagnosis[J]. Nuclear Technology, 2026: 1-18.](https://doi.org/10.1080/00295450.2025.2583848)
+
+
+[Qi B, Xiao X, Liang J. Accelerated Determination of Entry Conditions for Fault Procedures via Large Language Models and Knowledge Graphs[C]//International Conference on Nuclear Engineering. Singapore: Springer Nature Singapore, 2025: 361-373.](https://link.springer.com/chapter/10.1007/978-981-95-3449-4_30)
+
+[Qi B, Xiao X, Zhou H, et al. Causal-informed multi-task learning for probabilistic trend prediction of nuclear power plant abnormal conditions[J]. Annals of Nuclear Energy, 2026, 236: 112385.](https://doi.org/10.1016/j.anucene.2026.112385)
